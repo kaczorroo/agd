@@ -41,7 +41,7 @@ public class TaskHome2 {
     }
     public static int slowa(String plik) throws FileNotFoundException {
         /**
-         * Tutaj piszemy funkcje sposob em rekurencyjnym
+         * Tutaj piszemy funkcje
          * ktora obliczac nam bedzie ilosc slow w pliku.
          * */
         Scanner slowa = new Scanner(new File(plik));
