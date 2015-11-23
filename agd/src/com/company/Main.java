@@ -29,17 +29,15 @@ public class Main {
         double wynik3 = cena*10/rata;
         double wynik31 = cena*10;
 
-        if(rata <= 12){
+        if(6 >= rata && rata <= 12){
             System.out.println("Twoja rata wyniesie " + wynik1 + " zł");
             System.out.println("Przy " + rata + " ratach kwota całkowita wyniesie " + wynik11 + " zł");
         }
-        else System.out.println("Nie dotyczy");
-        if(rata<=24){
+        else if(13 >= rata &&rata<=24){
             System.out.println("Twoja rata wyniesie " + wynik2 + " zł");
             System.out.println("Przy " + rata + " ratach kwota całkowita wyniesie " + wynik21 + " zł");
         }
-        else System.out.println("Nie dotyczy");
-        if(rata<=48){
+        else if(25 >= rata &&rata<=48){
             System.out.println("Twoja rata wyniesie " + wynik3 + " zł");
             System.out.println("Przy " + rata + " ratach kwota całkowita wyniesie " + wynik31 + " zł");
         }
